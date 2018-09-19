@@ -1,0 +1,251 @@
+body{
+	background-color: #000;
+	margin: auto;
+}
+
+a{
+	color: #fff;
+}
+
+h6{
+	color: #be0505;
+}
+
+
+#wrapper{
+width: 1200px;
+}
+
+#topo{
+	margin: auto;
+width: 1200px;
+height: 220px;
+background-image: url("../images/topoNEW.png");
+}
+
+#content{
+color: #e8e8e8;
+width: 1200px;
+background-color: #181818;
+background-image: url("../images/bgcorpo.png");
+margin: auto;
+padding-top: 60px;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+#bottom{
+	margin: auto;
+width: 1200px;
+height: 200px;
+background-image: url("../images/bottomNEW.png");
+}
+
+#menu{
+	color: #908f8f;
+	padding-top: 170px;
+	float: bottom;
+	padding-right: 340px;
+	font-weight: bold;
+	
+}
+
+div#menu a:link{
+	color: #9a9898;
+}
+div#menu a:visited{
+	color: #9a9898;
+}
+div#menu a:hover{
+	color: #249a45;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: #a9a9a9;
+}
+
+.filmlista{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 60px;
+	border-color: #dadada; 
+	background-color: #171717;
+}
+
+.paginas{
+	border-color: #dadada; 
+	background-color: #171717;
+}
+
+
+.pagination > li > a
+{
+	border-color: #dadada; 
+	background-color: #171717;
+	color: #dadada;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+	border-color: #dadada; 
+	background-color: #171717;
+	color: #dadada;
+}
+
+.pagination > .active > a
+{
+	color: white;
+	border-color: #dadada; 
+	background-color: #171717;
+    border: solid 1px;
+}
+
+.pagination > .active > a:hover
+{
+    border-color: #dadada; 
+	background-color: #171717;
+    border: solid 1px;
+}
+
+.alerterro{
+	color: #be0505;
+}
+
+
+#imgserie{
+width: 220px;
+height: 280px;
+}
+
+#titulo{
+	width: 870px;
+	height: 65px;
+	margin-left: 5px;
+	font-size: 45px;
+}
+
+#titulo > p{
+	margin-left: 15px;
+}
+
+#titulo > hr{
+	margin-top: -10px;
+}
+
+#sinopse{
+	width: 870px;
+	height: 240px;
+	font-size: 15px;
+	margin-left: 15px;
+}
+
+h3{
+	margin-left: 30px;
+	margin-top: 13px; 
+	margin-bottom: 13px;
+}
+
+
+.episodiolista{
+ width: 780px;
+ height: 55px;
+ margin-left: 40px;
+}
+
+.episodiofoto{
+ width: 90px;
+ height: 50px;
+}
+
+.episodionumero{
+	font-size: 20px;
+	margin-top: 7px;
+	width: 70px;
+	margin-left: 20px;
+	margin-right: 8px;
+}
+
+.episodiotitulo{
+	font-size: 30px;
+	width: 550px;
+	margin-left: 30px;
+}
+
+.episodiotitulo >a:hover{
+	color: #999999;
+	text-decoration: none;
+}
+
+.episodiotitulo >a:visited{
+	color: #999999;
+	text-decoration: none;
+}
+
+.separador{
+	border-left:1px solid #a9a9a9;
+	height:45px;
+	margin-top: 2px;
+}
+
+#lista{
+	margin-top: 20px;
+}
+
+#lista > hr{
+	border: 0px;
+	border-top:1px solid #a9a9a9;
+	height: 5px;
+}
+
+
+#player{
+	width: 1000px;
+	height: 600px;
+}
+
+#contato{
+	margin:auto;
+	width: 600px;
+}
+
+#conta{
+	margin:auto;
+	width: 600px;
+}
+
+#pesquisa{
+	background-image: url("../images/pesquisabg.png");
+	margin: auto;
+	padding-top: 27px; 
+	width: 594px;
+	height: 170px;
+}
+
+#playerheader{
+	font-size: 36px;
+}
+
+#favorito{
+	margin: right;
+}
+
+
+#fav {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    margin-top: -10px;
+}
